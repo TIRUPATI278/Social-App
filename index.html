@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mini Social App</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mini Social App</h1>
+  </header>
+  <main>
+    <section class="sidebar">
+      <h2>Users</h2>
+      <ul id="users"></ul>
+      <h3>Current user</h3>
+      <select id="current-user"></select>
+    </section>
+    <section class="feed">
+      <h2>Posts</h2>
+      <form id="post-form">
+        <textarea id="post-content" placeholder="Write a post..."></textarea>
+        <button type="submit">Post</button>
+      </form>
+      <div id="posts"></div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
